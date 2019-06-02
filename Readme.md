@@ -7,4 +7,5 @@
 >##2019年6月2日
 >>1、完成HelloSpringMVC  
 >>>遇到的坑:  
->>>a.完成后需要在设置中的项目结构中设置Artifacts作为项目输出文件配置到tomcat中
+>>>a.完成后需要在设置中的项目结构中设置Artifacts作为项目输出文件配置到tomcat中  
+>>>b.JsonToXml转换时需要构造无参函数
