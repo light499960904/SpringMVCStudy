@@ -6,12 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a8f5470-601a-42eb-bde8-ecfee4d2ee6f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/views/index.jsp" afterDir="false" />
+    <list default="true" id="6a8f5470-601a-42eb-bde8-ecfee4d2ee6f" name="默认更改列表" comment="HelloSpringMVC">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="308">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -117,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="6732">
-              <caret line="738" column="32" selection-start-line="738" selection-start-column="32" selection-end-line="738" selection-end-column="32" />
+              <caret line="727" column="32" selection-start-line="727" selection-start-column="32" selection-end-line="727" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -171,9 +168,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="124" />
-    <option name="y" value="151" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="967" />
+    <option name="y" value="119" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -193,32 +190,6 @@
             <path>
               <item name="SpringMVCStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringMVCStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVCStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVCStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVCStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVCStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringMVCStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -453,7 +424,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559402882834</updated>
       <workItem from="1559402885423" duration="2579000" />
-      <workItem from="1559436975298" duration="3719000" />
+      <workItem from="1559436975298" duration="4247000" />
     </task>
     <task id="LOCAL-00001" summary="1、Maven下载速度稳定，使用阿里源&#10;2、配置日志文件logback.xml">
       <created>1559404364684</created>
@@ -490,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559440448260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HelloSpringMVC">
+      <created>1559440716891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559440716891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6298000" />
+    <option name="totallyTimeSpent" value="6826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,9 +484,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="967" y="119" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13513513" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -525,11 +504,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299532" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32839313" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3299532" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299532" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.48845264" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.22230889" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.22230889" />
       <window_info anchor="bottom" id="调试" order="14" weight="0.3299532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -562,7 +541,8 @@
     <MESSAGE value="1、Maven下载速度稳定，使用阿里源&#10;2、配置日志文件logback.xml" />
     <MESSAGE value="1、添加Readme.md描述，记录学习过程" />
     <MESSAGE value="HelloSpringMVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="HelloSpringMVC" />
+    <MESSAGE value="添加主页文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加主页文件" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -587,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6732">
-          <caret line="738" column="32" selection-start-line="738" selection-start-column="32" selection-end-line="738" selection-end-column="32" />
+          <caret line="727" column="32" selection-start-line="727" selection-start-column="32" selection-end-line="727" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -662,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="308">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
