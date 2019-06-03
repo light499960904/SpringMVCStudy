@@ -4,13 +4,14 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("SpringMVC")
-public class MVCConfig {
+@ComponentScan({"SpringMVC", "JsonToXml"})
+public class MVCConfig extends WebMvcConfigurerAdapter {
     /*
      * @作者： LightOfSky
      * @笔记内容： InternalResourceViewResolver作为Spring MVC中的M对编译JSP视图起到控制。

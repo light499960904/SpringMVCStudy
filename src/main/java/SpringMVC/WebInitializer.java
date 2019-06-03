@@ -5,7 +5,6 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 
 import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
 public class WebInitializer implements WebApplicationInitializer {
@@ -14,7 +13,7 @@ public class WebInitializer implements WebApplicationInitializer {
      * @笔记内容： 此配置代替了Web.xml文件，配置Servlet3.0+配置的接口
      * @日期： 2019/6/2 9:24
      **/
-    public void onStartup(ServletContext servletContext) throws ServletException {
+    public void onStartup(ServletContext servletContext) {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         ctx.register(MVCConfig.class);
         ctx.setServletContext(servletContext);
@@ -22,4 +21,6 @@ public class WebInitializer implements WebApplicationInitializer {
         servlet.addMapping("/");
         servlet.setLoadOnStartup(1);
     }
+
+
 }

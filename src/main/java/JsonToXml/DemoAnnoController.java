@@ -7,42 +7,47 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 
-@Controller
-@RequestMapping("/anno")
+
+@Controller // 1
+@RequestMapping("/anno") //2
 public class DemoAnnoController {
-    /*
-     * @作者： LightOfSky
-     * @笔记内容： produces = "text/plain;charset=UTF-8" 定制返回的类型以及返回的字符集格式   HttpServletRequest request 接受HttpServletRequest 与HttpServletResponse
-     * @日期： 2019/6/2 21:56
-     **/
-    @RequestMapping(produces = "text/plain;charset=UTF-8")
-    public @ResponseBody
-    String index(HttpServletRequest request) {
-        return "url:" + request.getRequestURI() + " can access";
-    }
 
+	@RequestMapping(produces = "text/plain;charset=UTF-8")    // 3
+	public @ResponseBody
+	String index(HttpServletRequest request) { // 4
+		return "url:" + request.getRequestURL() + " can access";
+	}
 
-    @RequestMapping(value = "/pathvar/{str}", produces = "text/plain;charset=UTF-8")
-    public @ResponseBody
-    String demoPathVar(@PathVariable String str, HttpServletRequest request) {
-        return "url:" + request.getRequestURI() + " can access.str:" + str;
-    }
+	@RequestMapping(value = "/pathvar/{str}", produces = "text/plain;charset=UTF-8")// 5
+	public @ResponseBody
+	String demoPathVar(@PathVariable String str, //3
+					   HttpServletRequest request) {
+		return "url:" + request.getRequestURL() + " can access,str: " + str;
+	}
 
-    @RequestMapping(value = "/requestParam", produces = "text/plain;charset=UTF-8")
-    public @ResponseBody
-    String passRequestParam(long id, HttpServletRequest request) {
-        return "url:" + request.getRequestURI() + " can access  id:" + id;
-    }
+	@RequestMapping(value = "/requestParam", produces = "text/plain;charset=UTF-8") //6
+	public @ResponseBody
+	String passRequestParam(Long id,
+							HttpServletRequest request) {
 
-    @RequestMapping(value = "/obj", produces = "application/json;charset=UTF-8")
-    @ResponseBody
-    public String passObj(DemoObj obj, HttpServletRequest request) {
-        return "url:" + request.getRequestURI() + " can access  id:" + obj.getID() + " name:" + obj.getName();
-    }
+		return "url:" + request.getRequestURL() + " can access,id: " + id;
 
-    @RequestMapping(value = {"/name1", "/name2"}, produces = "text/plain;charset=UTF-8")
-    public @ResponseBody
-    String remove(HttpServletRequest request) {
-        return "url:" + request.getRequestURI() + " can access";
-    }
+	}
+
+	@RequestMapping(value = "/obj", produces = "application/json;charset=UTF-8")//7
+	@ResponseBody //8
+	public String passObj(DemoObj obj, HttpServletRequest request) {
+
+		return "url:" + request.getRequestURL()
+				+ " can access, obj id: " + obj.getID() + " obj name:" + obj.getName();
+
+	}
+
+	@RequestMapping(value = {"/name1", "/name2"}, produces = "text/plain;charset=UTF-8")//9
+	public @ResponseBody
+	String remove(HttpServletRequest request) {
+
+		return "url:" + request.getRequestURL() + " can access";
+	}
+
 }
