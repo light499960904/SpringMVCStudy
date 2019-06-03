@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a8f5470-601a-42eb-bde8-ecfee4d2ee6f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonToXml/DemoAnnoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonToXml/DemoAnnoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonToXml/DemoRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonToXml/DemoRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringMVC/MVCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringMVC/MVCConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpringMVC/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpringMVC/WebInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +26,8 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <first_editor relative-caret-position="462">
+                <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringMVC/WebInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/SpringMVC/MVCConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="41" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -502,7 +494,7 @@
       <workItem from="1559402885423" duration="2579000" />
       <workItem from="1559436975298" duration="5150000" />
       <workItem from="1559482592938" duration="4248000" />
-      <workItem from="1559566676425" duration="4865000" />
+      <workItem from="1559566676425" duration="5015000" />
     </task>
     <task id="LOCAL-00001" summary="1、Maven下载速度稳定，使用阿里源&#10;2、配置日志文件logback.xml">
       <created>1559404364684</created>
@@ -567,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559489653505</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="完美收官，解决404以及Debug日志显示问题">
+      <created>1559571660042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559571660042</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16842000" />
+    <option name="totallyTimeSpent" value="16992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,13 +637,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="1、Maven下载速度稳定，使用阿里源&#10;2、配置日志文件logback.xml" />
     <MESSAGE value="1、添加Readme.md描述，记录学习过程" />
     <MESSAGE value="HelloSpringMVC" />
     <MESSAGE value="添加主页文件" />
     <MESSAGE value="修改忽略文件" />
     <MESSAGE value="遇到坑了。。QAQ  传值失败" />
-    <option name="LAST_COMMIT_MESSAGE" value="遇到坑了。。QAQ  传值失败" />
+    <MESSAGE value="完美收官，解决404以及Debug日志显示问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="完美收官，解决404以及Debug日志显示问题" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -761,7 +762,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringMVC/MVCConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="41" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -771,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -784,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpringMVC/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -795,8 +796,8 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <first_editor relative-caret-position="462">
+            <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
