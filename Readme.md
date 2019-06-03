@@ -1,15 +1,15 @@
-#这是一个SpringMVC的学习过程
+# 这是一个SpringMVC的学习过程
 `只有不断进步才能避免被时代的洪流所淘汰。`
 
-##2019年6月1日
+## 2019年6月1日
 1、完成Maven配置，Git存储库配置  
 2、完成logback.xml文件配置
-##2019年6月2日
+## 2019年6月2日
 1、完成HelloSpringMVC  
 遇到的坑:  
 a.完成后需要在设置中的项目结构中设置Artifacts作为项目输出文件配置到tomcat中  
 b.JsonToXml转换时需要构造无参函数
-##2019年6月3日
+## 2019年6月3日
 1、解决昨天无法访问的坑  
 原因：缺少包扫描配置  
 在MVCConfig配置中原来是@ComponentScan("SpringMVC") 更改为 @ComponentScan({"SpringMVC","JsonToXml"})   
