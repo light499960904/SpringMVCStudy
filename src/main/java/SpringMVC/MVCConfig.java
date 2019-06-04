@@ -1,16 +1,19 @@
 package SpringMVC;
 
+import GetServerTime.DemoInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan({"SpringMVC", "JsonToXml"})
+@ComponentScan({"SpringMVC", "JsonToXml", "GetServerTime"})
 public class MVCConfig extends WebMvcConfigurerAdapter {
     /*
      * @作者： LightOfSky
@@ -26,4 +29,25 @@ public class MVCConfig extends WebMvcConfigurerAdapter {
         return viewResolver;
     }
 
+    /*
+     * @作者： LightOfSky
+     * @笔记内容： addResourceHandler对外暴露访问路径，addResourceLocations存放路径
+     * @日期： 2019/6/4 21:24
+     **/
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        super.addResourceHandlers(registry);
+        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets/");
+    }
+
+    @Bean
+    public DemoInterceptor demoInterceptor() {
+        return new DemoInterceptor();
+    }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        super.addInterceptors(registry);
+        registry.addInterceptor(demoInterceptor());
+    }
 }

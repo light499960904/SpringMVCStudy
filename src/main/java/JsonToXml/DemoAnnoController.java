@@ -37,10 +37,8 @@ public class DemoAnnoController {
 	@RequestMapping(value = "/obj", produces = "application/json;charset=UTF-8")//7
 	@ResponseBody //8
 	public String passObj(DemoObj obj, HttpServletRequest request) {
-
 		return "url:" + request.getRequestURL()
 				+ " can access, obj id: " + obj.getID() + " obj name:" + obj.getName();
-
 	}
 
 	@RequestMapping(value = {"/name1", "/name2"}, produces = "text/plain;charset=UTF-8")//9
