@@ -15,7 +15,7 @@
         <servlet.version>3.1.0</servlet.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
-        <spring-framework.version>4.1.5.RELEASE</spring-framework.version>
+        <spring-framework.version>5.3.18</spring-framework.version>
         <logback.version>1.0.13</logback.version>
         <slf4j.version>1.7.5</slf4j.version>
         <log4j.version>1.2.16</log4j.version>
